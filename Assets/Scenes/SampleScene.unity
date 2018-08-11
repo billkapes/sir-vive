@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657886, g: 0.49641317, b: 0.5748195, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657832, g: 0.49641252, b: 0.57481855, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -142,6 +142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: -5, y: 0, z: 0}
   waitTime: 0
 --- !u!4 &35108842
@@ -186,6 +188,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: 5, y: 0, z: 0}
   waitTime: 0
 --- !u!4 &51503306
@@ -229,6 +233,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: -5, y: 0, z: 0}
   waitTime: 0
@@ -359,6 +365,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: 0, y: 0, z: 5}
   waitTime: 0
 --- !u!4 &77528825
@@ -402,6 +410,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: 0, y: 0, z: 5}
   waitTime: 0
@@ -447,6 +457,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: 0, y: 0, z: -5}
   waitTime: 0
 --- !u!4 &103552655
@@ -491,6 +503,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: 5, y: 0, z: 0}
   waitTime: 0
 --- !u!4 &106852096
@@ -534,6 +548,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: 0, y: 0, z: -5}
   waitTime: 0
@@ -828,6 +844,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: -5, y: 0, z: 0}
   waitTime: 0
 --- !u!1 &323734191
@@ -957,6 +975,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: -5, y: 0, z: 0}
   waitTime: 0
 --- !u!1 &405005661
@@ -987,6 +1007,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: 0, y: 0, z: -5}
   waitTime: 0
@@ -1032,6 +1054,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: 0, y: 0, z: 5}
   waitTime: 0
 --- !u!4 &414484251
@@ -1075,6 +1099,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: 5, y: 0, z: 0}
   waitTime: 0
@@ -1204,6 +1230,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: 0, y: 0, z: -5}
   waitTime: 0
@@ -1442,6 +1470,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: -5, y: 0, z: 0}
   waitTime: 0
 --- !u!4 &627305815
@@ -1571,6 +1601,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: 0, y: 0, z: 5}
   waitTime: 0
 --- !u!4 &752469234
@@ -1699,6 +1731,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: 0, y: 0, z: 5}
   waitTime: 0
@@ -2287,6 +2321,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: 5, y: 0, z: 0}
   waitTime: 0
 --- !u!4 &966962364
@@ -2437,6 +2473,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: -5, y: 0, z: 0}
   waitTime: 0
@@ -2617,6 +2655,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: -5, y: 0, z: 0}
   waitTime: 0
@@ -3172,6 +3212,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: 0, y: 0, z: -5}
   waitTime: 0
 --- !u!4 &1347018283
@@ -3555,6 +3597,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: -5, y: 0, z: 0}
   waitTime: 0
@@ -3984,6 +4028,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
     type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
+    type: 2}
   direction: {x: 5, y: 0, z: 0}
   waitTime: 0
 --- !u!4 &1722023870
@@ -4200,6 +4246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1550049726783692, guid: 6ca14aa1e2259634cb2fdfc739a25302,
+    type: 2}
+  simpleBulletPrefab: {fileID: 1550049726783692, guid: 7782325811493ca49862540255b7a716,
     type: 2}
   direction: {x: -5, y: 0, z: 0}
   waitTime: 0

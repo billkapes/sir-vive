@@ -17,13 +17,8 @@ public class Jump : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
 		KeyboardMovement ();
-
-
 		TouchMovement ();
-
-
 		//DoMovement();
 	}
 
@@ -75,8 +70,8 @@ public class Jump : MonoBehaviour {
 
 			case TouchPhase.Ended:
 				// Report that the touch has ended when it ends
-				Debug.Log(direction.ToString());
-				if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y)) {
+				Debug.Log (direction.ToString ());
+				if (Mathf.Abs (direction.x) > Mathf.Abs (direction.y)) {
 					if (direction.x > 0f) {
 						movement = Vector3.right * 2f;
 					} else {
@@ -84,11 +79,12 @@ public class Jump : MonoBehaviour {
 					}
 				} else {
 					if (direction.y > 0f) {
-						movement = Vector3.right * 2f;
+						movement = Vector3.forward * 2f;
 					} else {
-						movement = Vector3.left * 2f;
+						movement = Vector3.back * 2f;
 					}
 				}
+				DoMovement ();
 				break;
 			}
 		}

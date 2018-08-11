@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class Bullet : MonoBehaviour {
+public class SimpleBullet : MonoBehaviour {
 	
 	public ParticleSystem appearParticle;
 
@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour {
 
 		Sequence mySequence = DOTween.Sequence();
 		mySequence.Append(transform.DOScale(new Vector3(0.5f, 0.5f, 0.5f), 1));
-		mySequence.Append(transform.DOScaleZ(Random.Range(0.5f, 3f), 1));
+		//mySequence.Append(transform.DOScaleZ(Random.Range(0.5f, 3f), 1));
 		Invoke("SetVelocity", 1f);
 	}
 	
@@ -25,7 +25,7 @@ public class Bullet : MonoBehaviour {
 
 	void SetVelocity() {
 		GetComponent<Rigidbody>().velocity = transform.forward * 4f;
-		GetComponent<Rigidbody>().angularVelocity = transform.forward * 3f;
+		//GetComponent<Rigidbody>().angularVelocity = transform.forward * 3f;
 
 	}
 }

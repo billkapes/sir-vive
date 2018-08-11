@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour {
-	public GameObject bulletPrefab;
+	public GameObject bulletPrefab, simpleBulletPrefab;
 	public Vector3 direction;
 
 
@@ -13,7 +13,7 @@ public class Spawner : MonoBehaviour {
 	void Start () {
 		//Invoke("SpawnBullet", Random.Range(1f, 10f));
 		waitTime = 25;
-		//StartCoroutine("SpawnBullet");
+		StartCoroutine("SpawnSimpleBullet");
 	}
 	
 	// Update is called once per frame
@@ -23,14 +23,24 @@ public class Spawner : MonoBehaviour {
 
 	IEnumerator SpawnBullet() {
 		//yield return new WaitForSeconds (Random.Range(1f, waitTime));
-		GameObject bullet = Instantiate (bulletPrefab, transform.position, transform.rotation) as GameObject;	
+		Instantiate (bulletPrefab, transform.position, transform.rotation);	
 		yield return new WaitForSeconds (1f);
 		//bullet.GetComponent<Rigidbody> ().velocity = direction;
 		//Invoke("SpawnBullet", Random.Range(1f, 10f));
-		waitTime = Mathf.Max(1, waitTime - 1);
+		//waitTime = Mathf.Max(1, waitTime - 1);
 		//StartCoroutine("SpawnBullet");
 
 
+	}
+
+	IEnumerator SpawnSimpleBullet() {
+		yield return new WaitForSeconds (Random.Range(1f, waitTime));
+		Instantiate (simpleBulletPrefab, transform.position, transform.rotation);	
+		yield return new WaitForSeconds (1f);
+		//bullet.GetComponent<Rigidbody> ().velocity = direction;
+		//Invoke("SpawnBullet", Random.Range(1f, 10f));
+		//waitTime = Mathf.Max(1, waitTime - 1);
+		StartCoroutine("SpawnSimpleBullet");
 	}
 
 	public void DoSpawn() {
