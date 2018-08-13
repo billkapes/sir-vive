@@ -31,10 +31,12 @@ public class Jump : MonoBehaviour {
 		if (movement != Vector3.zero) {
 			if ((transform.position + movement).x > 4 || (transform.position + movement).x < -4) {
 				movement = Vector3.zero;
+				canMove = true;
 				return;
 			}
 			if ((transform.position + movement).z > 4 || (transform.position + movement).z < -4) {
 				movement = Vector3.zero;
+				canMove = true;
 				return;
 			}
 			transform.DOJump(transform.position + movement, 0.25f, 1, 0.1f, false).OnComplete(SetCanMoveTrue);

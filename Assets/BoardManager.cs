@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
-	
+public class BoardManager : MonoBehaviour {
+	public int count = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -12,16 +12,6 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-	}
-
-	void OnTriggerEnter(Collider other) {
-		if (other.tag == "Bullet") {
-			Destroy (gameObject);
-		}
-
-		if (other.tag == "Pickup") {
-			
-		}
+		
 	}
 }

@@ -21,7 +21,7 @@ public class SpawnManager : MonoBehaviour {
 				transform.GetChild(Random.Range(0, transform.childCount)).SendMessage("DoSpawn");
 			}
 			timer = 3.3f;
-			spawnAmount += 1;
+			spawnAmount += Random.Range(0, 2);
 		}
 	}
 

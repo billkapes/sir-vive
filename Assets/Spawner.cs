@@ -12,7 +12,7 @@ public class Spawner : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//Invoke("SpawnBullet", Random.Range(1f, 10f));
-		waitTime = 25;
+		waitTime = 50;
 		StartCoroutine("SpawnSimpleBullet");
 	}
 	
